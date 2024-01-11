@@ -14,7 +14,7 @@ SECRET_KEY = 'aralxt83cxseu%+7%(-wx3qrtf+xjrq64zg9lxw&88coqr3ha*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app','localhsot','127.0.0.1','.new.sh']
 
 DEFAULT_AUTO_FIELD='django.db.models.AutoField' 
 
