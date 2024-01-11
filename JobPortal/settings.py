@@ -115,12 +115,17 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "jobs/static")
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, "jobs/static")
+# ]
+# update 
+STATICFILES_DIRS = os.path.join(BASE_DIR, 'jobs/static'),
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'jobs/static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'jobs/media')
 MEDIA_URL = '/media/'
+
+
 
 EMAIL_HOST = 'smtp.gmail.com'
 # EMAIL_HOST_PORT = 25
