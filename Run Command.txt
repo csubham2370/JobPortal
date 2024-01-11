@@ -1,0 +1,71 @@
+pip install django
+
+python -m pip install Pillow
+
+python manage.py makemigrations
+
+python manage.py migrate
+
+python manage.py runserver
+
+---------How to create admin (super user)-----------
+
+python manage.py createsuperuser
+
+then you set your user name.
+
+email address is not mandatory.
+
+set your password.
+
+conform your password.
+
+Superuser created successfully.
+
+----------------------------------------------------
+superuser id: sc4321
+
+password: 4321
+
+-----------------------------------------------------
+company loin id: abhijitroy12345
+
+password: 12345
+
+-----------------------------------------------------
+user login: cs@gmail.com     
+password: 4321
+
+--------------------------------------------------------
+Our group members user login and password:
+
+Name: SIDDHARTHA KHAWAS
+
+user name: khawas2002
+
+password:  khawas2006
+
+--------------------------------
+
+Name : SHIVENDU SHIVAM
+
+user name: shivam2003
+
+password: shivam2051
+
+---------------------------------
+
+Name: SUBHAM CHAKRABORTY
+
+user name: chakraborty2000
+
+password:  chakraborty2007
+
+----------------------------------
+
+Name: SUMIT KUMAR CHOUBEY
+
+user name: choubey1999
+
+password: choubey2003
+
